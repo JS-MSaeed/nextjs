@@ -1,5 +1,5 @@
 import './ui/global.css';
-import {saira} from '@/app/ui/fonts'
+import {lusitana} from '@/app/ui/fonts'
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={(`${saira.className} antialiased`)}>{children}</body>
+      <body className={(`${lusitana.className} antialiased`)}>{children}</body>
     </html>
   );
 }
